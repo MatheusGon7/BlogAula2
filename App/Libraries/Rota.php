@@ -1,5 +1,7 @@
 <?php
-class Rota{
+
+class Rota
+{
    private $controlador = "Paginas";
    private $metodo = 'index';
    private $parametros = [];

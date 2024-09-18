@@ -18,8 +18,7 @@ include "./../App/Libraries/Controller.php";
     $rotas = new Rota();
    // $rotas->url();
    include("../App/Views/footer.php");
-  
-
+   
     ?>
     <script src="<?=URL?>/public/bootstrap/js/bootstrap.js"></script>
     <script src="<?=URL?>/public/js/query.js"></script>
