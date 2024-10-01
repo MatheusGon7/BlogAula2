@@ -19,11 +19,12 @@
             ];
 
             try{
-
+                $this->dbh = new PDO($dns,$this->usuario, $this->senha);
             }catch(PDOException $e){
                 echo "Erro! ".$e->getMessage()."<br/>";
                 die();
             }
         }
     }
+    $a = new DataBase();
 ?>
